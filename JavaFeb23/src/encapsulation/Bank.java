@@ -3,7 +3,7 @@ package encapsulation;
 public class Bank {
 	
 	int accountNumber = 12345678;
-	private int pinNumber = 1234;
+	int pinNumber = 1234;
 	private int balance = 150000;
 	
 	public void drawMoney(int acctNo, int pinNo, int amount) {
